@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+
+<link rel="stylesheet" href="C:\Users\Prem Maniar\OneDrive\Desktop\SEM 3\WDF\StudentHub\CSS\Registration.css">
+
+</head>
+
+<body>
+
+<header>
+    <h1>REGISTRATION</h1>
+</header>
+
+<div class="container">
+
+<h2>Student Registration Form</h2>
+
+<form action="Login.html">
+
+<label>Full Name</label>
+<input type="text" name="name" placeholder="Enter your full name" required>
+
+<label>Email</label>
+<input type="email" name="email" placeholder="Enter your email" required>
+
+<label>Mobile Number</label>
+<input type="tel" name="mobile" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10" required>
+
+<label>Gender</label>
+<select name="gender" required>
+    <option value="" selected disabled>Select</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+</select>
+
+<label>Course</label>
+<select name="course" required>
+    <option value="" selected disabled>Select</option>
+    <option>BCA</option>
+    <option>BBA</option>
+    <option>B.Com</option>
+    <option>B.Tech</option>
+    <option>MCA</option>
+    <option>MBA</option>
+</select>
+
+<label>Password</label>
+<input type="password" name="password" placeholder="Create Password" minlength="6" required>
+
+<label>Confirm Password</label>
+<input type="password" name="confirmPassword" placeholder="Confirm Password" minlength="6" required>
+
+<input type="submit" value="Register">
+
+</form>
+
+</div>
+
+</body>
+</html>

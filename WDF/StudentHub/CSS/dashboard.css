@@ -1,0 +1,110 @@
+    <style>
+        body{
+            margin:0;
+            font-family:Arial,sans-serif;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:linear-gradient(to right,#004aad,#0080ff);
+            color:white;
+            height:90px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            position:relative;
+            box-shadow:0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        header h1{
+            margin:0;
+            font-size:40px;
+            letter-spacing:3px;
+        }
+
+        .dropdown{
+            position:absolute;
+            left:20px;
+        }
+
+        .dropbtn{
+            background:#4CAF50;
+            color:white;
+            padding:14px 20px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:22px;
+        }
+
+        .dropbtn:hover{
+            background:#3e8e41;
+        }
+
+        .dropdown-content{
+            display:none;
+            position:absolute;
+            left:0;
+            top:55px;
+            background:white;
+            min-width:180px;
+            box-shadow:0 8px 16px rgba(0,0,0,0.2);
+            z-index:1;
+        }
+
+        .dropdown-content a{
+            display:block;
+            text-decoration:none;
+            color:black;
+            padding:12px 16px;
+        }
+
+        .dropdown-content a:hover{
+            background:#f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content{
+            display:block;
+        }
+
+        .container{
+            width:85%;
+            margin:30px auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            color:#004aad;
+            text-align:center;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+        }
+
+        table,th,td{
+            border:1px solid #ccc;
+        }
+
+        th{
+            background:#004aad;
+            color:white;
+            padding:12px;
+        }
+
+        td{
+            padding:10px;
+            text-align:center;
+        }
+
+        .welcome{
+            text-align:center;
+            font-size:20px;
+            margin-bottom:20px;
+        }
+    </style>
